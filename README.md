@@ -1,6 +1,6 @@
 # 📈 AI-Powered Financial Analysis & Trading Platform
 
-This project implements a local AI-powered financial analysis and trading platform. It uses deep learning (LSTM) for market prediction, GARCH for volatility forecasting, and computes Value at Risk (VaR) — all **without cloud-based APIs**. A FastAPI backend serves predictions, and a Streamlit dashboard provides interactive data visualization.
+This project implements a local AI-powered financial analysis and trading platform. It uses deep learning (LSTM) for market prediction, GARCH for risk assessment metrics like volatility forecasting, and computes Value at Risk (VaR) — all **without cloud-based APIs**. A FastAPI backend serves predictions, and a Streamlit dashboard provides interactive data visualization.
 
 ---
 
