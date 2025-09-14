@@ -1,10 +1,10 @@
-# 📈 AI-Powered Financial Analysis & Trading Platform
+# AI-Powered Financial Analysis & Trading Platform
 
 This project implements a local AI-powered financial analysis and trading platform. It uses deep learning (LSTM) for market prediction, GARCH for risk assessment metrics like volatility forecasting, and computes Value at Risk (VaR) — all **without cloud-based APIs**. A FastAPI backend serves predictions, and a Streamlit dashboard provides interactive data visualization.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Data Preprocessing**
   - Uses IBM stock data (CSV)
@@ -21,7 +21,7 @@ This project implements a local AI-powered financial analysis and trading platfo
 
 ---
 
-## 💻 Technical Stack
+## Technical Stack
 
 - **Backend:** Python, FastAPI, PyTorch, ARCH
 - **Frontend:** Python, Streamlit, Plotly, Pandas
@@ -29,7 +29,7 @@ This project implements a local AI-powered financial analysis and trading platfo
 
 ---
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 
 Follow these steps to set up and run the project locally.
 
@@ -80,7 +80,7 @@ This will open the dashboard in your browser at [http://localhost:8501](http://l
 
 ---
 
-## 🧠 Technical Architecture & Design Choices
+## Technical Architecture & Design Choices
 
 - **Local-First Philosophy:** All core functionalities are performed on-device.
 - **Decoupled Architecture:** FastAPI backend serves as a dedicated API layer, separating AI logic from the frontend. API endpoints were tested with Postman before integrating with Streamlit.
@@ -90,6 +90,6 @@ This will open the dashboard in your browser at [http://localhost:8501](http://l
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Hazem Ahmed Murshedi
